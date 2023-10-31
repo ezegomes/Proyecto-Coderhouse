@@ -103,6 +103,12 @@ main {
     height: 60vh;
 }
 
+.tamImagen{
+    height: 15vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
 /* CONTACTO */
 .contacto {
     display: flex;
