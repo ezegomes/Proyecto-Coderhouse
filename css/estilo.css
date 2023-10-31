@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border-bottom: 2px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    justify-content: start;
+}
+
+.logoTitulo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 22px;
+
+}
+
+a {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.estiloHeader {
+    color: black;
+}
+
+.navHeader {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.botonContacto {
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: green;
+    padding: 12px 30px;
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px black solid;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* CONTACTO */
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+form {
+    width: 30vw;
+}
+
+.campoTexto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+textarea{
+    height: 150px;
+}
+
+.botonForm {
+    width: auto;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    margin-left: 30%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.ubicacionContacto {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.tituloForm{
+    text-align: center;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
